@@ -11,10 +11,9 @@
 <div class="super_container">
 
     <!-- Home -->
-
     <div class="home">
         <div class="home_background_container prlx_parent">
-            <div class="home_background prlx" style="background-image:url(images/news_background.jpg)"></div>
+            <div class="home_background prlx" style="background-image:url('{{ asset('images/news_background.jpg') }}')"></div>
         </div>
         <div class="home_content">
             <h1>Latest News</h1>
@@ -22,20 +21,17 @@
     </div>
 
     <!-- News -->
-
     <div class="news">
         <div class="container">
             <div class="row">
 
                 <!-- News Post Column -->
-
                 <div class="col-lg-8">
-
                     <div class="news_post_container">
                         <!-- News Post -->
                         <div class="news_post">
                             <div class="news_post_image">
-                                <img src="images/news_1.jpg" alt="New Course Launch">
+                                <img src="{{ asset('images/news_1.jpg') }}" alt="New Course Launch">
                             </div>
                             <div class="news_post_top d-flex flex-column flex-sm-row">
                                 <div class="news_post_date_container">
@@ -65,7 +61,6 @@
 
                             <p class="news_post_text" style="margin-top: 59px;">In addition to theory, our course offers hands-on experience with real-life case studies and projects. It’s designed to give you practical knowledge that’s directly applicable to your career. Whether you're new to the field or want to enhance your current skills, this course is perfect for you!</p>
                         </div>
-
                     </div>
 
                     <!-- Comments -->
@@ -78,7 +73,7 @@
                                 <div class="comment_container d-flex flex-row">
                                     <div>
                                         <div class="comment_image">
-                                            <img src="images/comment_1.jpg" alt="">
+                                            <img src="{{ asset('images/comment_1.jpg') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="comment_content">
@@ -99,7 +94,7 @@
                                 <div class="comment_container d-flex flex-row">
                                     <div>
                                         <div class="comment_image">
-                                            <img src="images/comment_2.jpg" alt="">
+                                            <img src="{{ asset('images/comment_2.jpg') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="comment_content">
@@ -116,14 +111,11 @@
                             </li>
 
                         </ul>
-
                     </div>
 
                     <!-- Leave Comment -->
-
                     <div class="leave_comment">
                         <div class="leave_comment_title">Leave a comment</div>
-
                         <div class="leave_comment_form_container">
                             <form action="post">
                                 <input id="comment_form_name" class="input_field contact_form_name" type="text" placeholder="Name" required="required" data-error="Name is required.">
@@ -137,7 +129,6 @@
                 </div>
 
                 <!-- Sidebar Column -->
-
                 <div class="col-lg-4">
                     <div class="sidebar">
 
@@ -156,7 +147,6 @@
                         </div>
 
                         <!-- Latest Posts -->
-
                         <div class="sidebar_section">
                             <div class="sidebar_section_title">
                                 <h3>Latest posts</h3>
@@ -167,7 +157,7 @@
                                 <!-- Latest Post -->
                                 <div class="latest_post">
                                     <div class="latest_post_image">
-                                        <img src="images/latest_1.jpg" alt="New Course">
+                                        <img src="{{ asset('images/latest_1.jpg') }}" alt="New Course">
                                     </div>
                                     <div class="latest_post_title"><a href="news_post.html">Our New Digital Marketing Course</a></div>
                                     <div class="latest_post_meta">
@@ -180,7 +170,7 @@
                                 <!-- Latest Post -->
                                 <div class="latest_post">
                                     <div class="latest_post_image">
-                                        <img src="images/latest_2.jpg" alt="Workshop Announcement">
+                                        <img src="{{ asset('images/latest_2.jpg') }}" alt="Workshop Announcement">
                                     </div>
                                     <div class="latest_post_title"><a href="news_post.html">Upcoming Web Development Workshop</a></div>
                                     <div class="latest_post_meta">
@@ -195,7 +185,6 @@
                         </div>
 
                         <!-- Tags -->
-
                         <div class="sidebar_section">
                             <div class="sidebar_section_title">
                                 <h3>Tags</h3>

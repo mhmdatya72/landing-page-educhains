@@ -13,7 +13,7 @@
 
     <div class="home">
         <div class="home_background_container prlx_parent">
-            <div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+            <div class="home_background prlx" style="background-image:url({{ asset('images/contact_background.jpg') }})"></div>
         </div>
         <div class="home_content">
             <h1>Contact</h1>
@@ -52,19 +52,19 @@
                             <ul>
                                 <li class="contact_info_item">
                                     <div class="contact_info_icon">
-                                        <img src="images/placeholder.svg" alt="Location Icon">
+                                        <img src="{{ asset('images/placeholder.svg') }}" alt="Location Icon">
                                     </div>
                                     El Ekbal Street, Louran, Alexandria, Egypt
                                 </li>
                                 <li class="contact_info_item">
                                     <div class="contact_info_icon">
-                                        <img src="images/smartphone.svg" alt="Phone Icon">
+                                        <img src="{{ asset('images/smartphone.svg') }}" alt="Phone Icon">
                                     </div>
                                     +201002247995
                                 </li>
                                 <li class="contact_info_item">
                                     <div class="contact_info_icon">
-                                        <img src="images/envelope.svg" alt="Email Icon">
+                                        <img src="{{ asset('images/envelope.svg') }}" alt="Email Icon">
                                     </div>educhainseg@gmail.com
                                 </li>
                             </ul>
@@ -89,8 +89,6 @@
 
         </div>
     </div>
-
-
 
 </div>
 

@@ -8,14 +8,13 @@
 
 @endpush
 @section('content')
-
 <div class="super_container">
 
     <!-- Home -->
 
     <div class="home">
         <div class="home_background_container prlx_parent">
-            <div class="home_background prlx" style="background-image:url(images/news_background.jpg)"></div>
+            <div class="home_background prlx" style="background-image:url('{{ asset('images/news_background.jpg') }}')"></div>
         </div>
         <div class="home_content">
             <h1>Latest News</h1>
@@ -36,7 +35,7 @@
                         <!-- News Post -->
                         <div class="news_post">
                             <div class="news_post_image">
-                                <img src="images/news_1.jpg" alt="New Courses">
+                                <img src="{{ asset('images/news_1.jpg') }}" alt="New Courses">
                             </div>
                             <div class="news_post_top d-flex flex-column flex-sm-row">
                                 <div class="news_post_date_container">
@@ -67,7 +66,7 @@
                         <!-- News Post -->
                         <div class="news_post">
                             <div class="news_post_image">
-                                <img src="images/news_2.jpg" alt="Workshop">
+                                <img src="{{ asset('images/news_2.jpg') }}" alt="Workshop">
                             </div>
                             <div class="news_post_top d-flex flex-column flex-sm-row">
                                 <div class="news_post_date_container">
@@ -98,7 +97,7 @@
                         <!-- News Post -->
                         <div class="news_post">
                             <div class="news_post_image">
-                                <img src="images/news_3.jpg" alt="Success Story">
+                                <img src="{{ asset('images/news_3.jpg') }}" alt="Success Story">
                             </div>
                             <div class="news_post_top d-flex flex-column flex-sm-row">
                                 <div class="news_post_date_container">
@@ -169,7 +168,7 @@
                                 <!-- Latest Post -->
                                 <div class="latest_post">
                                     <div class="latest_post_image">
-                                        <img src="images/latest_1.jpg" alt="New Course">
+                                        <img src="{{ asset('images/latest_1.jpg') }}" alt="New Course">
                                     </div>
                                     <div class="latest_post_title"><a href="{{route('news_post')}}">New Digital Marketing Course</a></div>
                                 </div>
@@ -177,7 +176,7 @@
                                 <!-- Latest Post -->
                                 <div class="latest_post">
                                     <div class="latest_post_image">
-                                        <img src="images/latest_2.jpg" alt="Workshop">
+                                        <img src="{{ asset('images/latest_2.jpg') }}" alt="Workshop">
                                     </div>
                                     <div class="latest_post_title"><a href="{{route('news_post')}}">Web Development Workshop</a></div>
                                 </div>
@@ -185,7 +184,7 @@
                                 <!-- Latest Post -->
                                 <div class="latest_post">
                                     <div class="latest_post_image">
-                                        <img src="images/latest_3.jpg" alt="Student Story">
+                                        <img src="{{ asset('images/latest_3.jpg') }}" alt="Student Story">
                                     </div>
                                     <div class="latest_post_title"><a href="{{route('news_post')}}">Success Stories</a></div>
                                 </div>

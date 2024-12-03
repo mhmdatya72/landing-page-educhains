@@ -22,7 +22,7 @@
     <!-- Home -->
     <div class="home">
         <div class="home_background_container prlx_parent">
-            <div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+            <div class="home_background prlx" style="background-image:url({{ asset('images/contact_background.jpg') }})"></div>
         </div>
         <div class="home_content text-center text-white py-5">
             <h1 class="display-5">About Educhains</h1>
@@ -71,7 +71,7 @@
                 <div class="row text-center">
                     <div class="col-lg-4 mb-4">
                         <div class="icon_container mb-3">
-                            <img src="images/earth-globe.svg" alt="">
+                            <img src="{{ asset('images/earth-globe.svg') }}" alt="">
                         </div>
                         <h3 class="h5 font-weight-bold">Online Courses</h3>
                         <p class="text-muted">We offer flexible online courses that allow learners to study at their own pace and convenience. Our courses cover a variety of subjects, including marketing, business, design, and technology.</p>
@@ -79,7 +79,7 @@
 
                     <div class="col-lg-4 mb-4">
                         <div class="icon_container mb-3">
-                            <img src="images/exam.svg" alt="">
+                            <img src="{{ asset('images/exam.svg') }}" alt="">
                         </div>
                         <h3 class="h5 font-weight-bold">In-Person Workshops</h3>
                         <p class="text-muted">We also offer in-person workshops and training sessions, providing learners with practical, hands-on experience. These workshops are designed to enhance skills in a collaborative learning environment.</p>
@@ -87,7 +87,7 @@
 
                     <div class="col-lg-4 mb-4">
                         <div class="icon_container mb-3">
-                            <img src="images/books.svg" alt="">
+                            <img src="{{ asset('images/books.svg') }}" alt="">
                         </div>
                         <h3 class="h5 font-weight-bold">Comprehensive Library</h3>
                         <p class="text-muted">Our library provides access to a wide range of educational resources, including books, articles, and videos, to support learners in their studies and professional development.</p>
@@ -107,13 +107,13 @@
             </div>
 
             <div class="milestones_container">
-                <div class="milestones_background" style="background-image:url(images/milestones_background.jpg)"></div>
+                <div class="milestones_background" style="background-image:url({{ asset('images/milestones_background.jpg') }})"></div>
 
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 mb-4">
                             <div class="milestone text-center p-4">
-                                <div class="milestone_icon mb-3"><img src="images/milestone_1.svg" alt="Milestone"></div>
+                                <div class="milestone_icon mb-3"><img src="{{ asset('images/milestone_1.svg') }}" alt="Milestone"></div>
                                 <div class="milestone_counter display-4" data-end-value="750">0</div>
                                 <div class="milestone_text">Current Students</div>
                             </div>
@@ -121,7 +121,7 @@
 
                         <div class="col-lg-3 mb-4">
                             <div class="milestone text-center p-4">
-                                <div class="milestone_icon mb-3"><img src="images/milestone_2.svg" alt="Milestone"></div>
+                                <div class="milestone_icon mb-3"><img src="{{ asset('images/milestone_2.svg') }}" alt="Milestone"></div>
                                 <div class="milestone_counter display-4" data-end-value="120">0</div>
                                 <div class="milestone_text">Certified Teachers</div>
                             </div>
@@ -129,7 +129,7 @@
 
                         <div class="col-lg-3 mb-4">
                             <div class="milestone text-center p-4">
-                                <div class="milestone_icon mb-3"><img src="images/milestone_3.svg" alt="Milestone"></div>
+                                <div class="milestone_icon mb-3"><img src="{{ asset('images/milestone_3.svg') }}" alt="Milestone"></div>
                                 <div class="milestone_counter display-4" data-end-value="39">0</div>
                                 <div class="milestone_text">Approved Courses</div>
                             </div>
@@ -137,7 +137,7 @@
 
                         <div class="col-lg-3 mb-4">
                             <div class="milestone text-center p-4">
-                                <div class="milestone_icon mb-3"><img src="images/milestone_4.svg" alt="Milestone"></div>
+                                <div class="milestone_icon mb-3"><img src="{{ asset('images/milestone_4.svg') }}" alt="Milestone"></div>
                                 <div class="milestone_counter display-4" data-end-value="3500" data-sign-before="+">0</div>
                                 <div class="milestone_text">Graduate Students</div>
                             </div>
